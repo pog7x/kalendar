@@ -2,7 +2,7 @@ import os
 import platform
 from datetime import datetime, timezone
 
-from picsexl.picsexl import PIcsExl, PIcsExlException
+from picsexl import PIcsExl, PIcsExlException
 
 if platform.system() == "Windows":
     os.environ["KIVY_GL_BACKEND"] = "angle_sdl2"

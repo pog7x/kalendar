@@ -54,7 +54,7 @@ pytestdebug.log
 *.mo
 *.pot
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+# PEP 582
 pypackages/
 
 # env
@@ -78,7 +78,6 @@ Thumbs.db
 
 # profiling data
 .prof
-
 
 # IDE
 .idea/
